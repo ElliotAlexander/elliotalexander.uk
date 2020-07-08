@@ -1,0 +1,17 @@
+baseURL = ""
+languageCode = "en-gb"
+title = "Elliot Alexander"
+theme = "introduction"
+
+[deployment]
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+name = "s3"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://www.elliotalexander.uk?region=eu-west-2"
+cloudFrontDistributionID = "E15SEUHZ0DJLR5"
+
+

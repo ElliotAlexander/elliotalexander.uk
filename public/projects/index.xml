@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Elliot Alexander</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Elliot Alexander</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 05 Jul 2020 14:35:45 +0100</lastBuildDate>
+    
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Passive Network Analysis</title>
+      <link>/projects/networkwatcher/</link>
+      <pubDate>Sun, 05 Jul 2020 15:25:24 +0100</pubDate>
+      
+      <guid>/projects/networkwatcher/</guid>
+      <description>As a part of my fourth year Group Design Project, myself and a team of four others designed and implemented a passive network tap capable of logging analytics, client and network information, active port scanning and basic intrusion detection. This was build with a Java backend (build ontop of PCAP4J), with a ReactJS frontend.
+The project was extremely large, and capable of detecting (among others):
+ Listing all DNS queries made on a network Geolocating (in real time) all external connections on a network.</description>
+    </item>
+    
+    <item>
+      <title>FORTRAN II Compiler</title>
+      <link>/projects/edsac/</link>
+      <pubDate>Sun, 05 Jul 2020 14:35:54 +0100</pubDate>
+      
+      <guid>/projects/edsac/</guid>
+      <description>For my Undergraduate Dissertation, I built a C++ based FORTRAN II Compiler for writing and compiling programs to run on the original EDSAC Machine at Bletchley park. This project was completed under the supervision of Professor Andrew Brown, with the goal of dramatically simplifying the process of writing and compiling programs to the tape-based instruction set of the EDSAC machine.
+The project was highly successful, resulting in a first-class classification. The following feedback was provided by my project&amp;rsquo;s supervisor:</description>
+    </item>
+    
+  </channel>
+</rss>

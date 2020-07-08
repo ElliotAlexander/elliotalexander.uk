@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/projects/networkwatcher/</loc>
+    <lastmod>2020-07-05T15:25:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-05T15:25:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/edsac/</loc>
+    <lastmod>2020-07-05T14:35:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2020-07-05T14:35:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/about-me/</loc>
+    <lastmod>2020-07-05T13:23:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-07-05T13:23:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/</loc>
+  </url>
+  
+</urlset>
