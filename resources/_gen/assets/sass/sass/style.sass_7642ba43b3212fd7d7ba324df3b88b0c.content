@@ -7147,6 +7147,15 @@ pre {
 .top-pad {
   padding-top: 1rem; }
 
+.color-scheme-toggle {
+  position: relative; }
+
+.color-scheme-toggle h1 {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  float: right; }
+
 .bottom-pad {
   padding-bottom: 1rem; }
 
