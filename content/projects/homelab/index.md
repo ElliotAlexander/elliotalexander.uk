@@ -1,10 +1,10 @@
 ---
 title: "Homelab" # Title of your project
 date: 2020-08-13T23:52:08+01:00
-weight: 0 # Order in which to show this project on the home page
+weight: 5# Order in which to show this project on the home page
 external_link: "" # Optional external link instead of modal
 resources:
-    - src: homelab.jpg
+    - src: homelab.png
       params:
           weight: -100 # Optional weighting for a specific image in this project folder
 draft: true
@@ -25,3 +25,4 @@ I've been invlolved with homelabbing for two years now, and in that time have le
 
 I generally use **CentOS 7/8** or docker for the majority of my services.
 
+My homelab is in a constant state of adaptation, with new technologies, services and tools being deployed all the time. It's been an invaluable source of learning, particularlly for aspects of networking, system administration, virtualization, docker and Linux.
