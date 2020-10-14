@@ -1,7 +1,7 @@
 ---
 title: "ElliotAlexander.uk" 
 date: 2020-08-10T21:30:00+01:00
-weight: 2 # Order in which to show this project on the home page
+weight: 5 # Order in which to show this project on the home page
 external_link: "" 
 resources:
     - src: EDSAC.jpg

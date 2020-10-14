@@ -1,7 +1,7 @@
 ---
 title: "Homelab" # Title of your project
 date: 2020-08-13T23:52:08+01:00
-weight: 5# Order in which to show this project on the home page
+weight: 2
 external_link: "" # Optional external link instead of modal
 resources:
     - src: homelab.png

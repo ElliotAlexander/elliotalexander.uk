@@ -1,7 +1,7 @@
 ---
 title: ".dotfiles" # Title of your project
 
-weight: 4 # Order in which to show this project on the home page
+weight: 3 # Order in which to show this project on the home page
 external_link: "" # Optional external link instead of modal
 resources:
     - src: screenshot.png
