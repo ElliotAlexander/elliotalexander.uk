@@ -1,7 +1,7 @@
 ---
 title: "About Me"
-draft: true
-weight: 0
+image: "me.jpg"
+weight: 1 
 ---
 
 

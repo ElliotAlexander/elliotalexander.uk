@@ -1,6 +1,5 @@
 ---
 title: "Welcome"
-draft: true
 weight: 0
 ---
 
