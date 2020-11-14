@@ -7,7 +7,6 @@ resources:
     - src: screenshot.png
       params:
           weight: -100 # Optional weighting for a specific image in this project folder
-draft: true
 ---
 
 As a part of my fourth year Group Design Project, myself and a team of four others designed and implemented a passive network tap capable of logging analytics, client and network information, active port scanning and basic intrusion detection. This was build with a Java backend (build ontop of [PCAP4J](https://github.com/kaitoy/pcap4j)), with a ReactJS frontend. 

@@ -7,7 +7,6 @@ resources:
     - src: homelab.png
       params:
           weight: -100 # Optional weighting for a specific image in this project folder
-draft: true
 ---
 My homelab is an environment which allows me to build, develop, learn and experiment with new tools, software and hardware in a safe and controller environment. 
 

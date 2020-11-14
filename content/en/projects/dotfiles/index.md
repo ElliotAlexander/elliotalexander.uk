@@ -7,7 +7,6 @@ resources:
     - src: screenshot.png
       params:
           weight: -100 # Optional weighting for a specific image in this project folder
-draft: true
 ---
 
 I'm an avid linux/vim/terminal lover. If you're interested in my dotfiles, you can find them here.

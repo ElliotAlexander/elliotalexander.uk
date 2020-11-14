@@ -7,7 +7,6 @@ resources:
     - src: EDSAC.jpg
       params:
           weight: -100 # Optional weighting for a specific image in this project folder
-draft: true
 ---
 
 My personal site is a massive time sink of mine. It's constantly being rewritten with new technologies, and is often used as a test bed for web-technologies I'm interested in or want to learn more about. Currently, the site is built in Hugo; a static site generator.
