@@ -1,12 +1,10 @@
 ---
 title: "FORTRAN II Compiler"
 date: 2020-07-05T14:35:54+01:00
-weight: 1 # Order in which to show this project on the home page
-external_link: "" # Optional external link instead of modal
+weight: 1 
+external_link: "" 
 resources:
-    - src: EDASC.jpg
-      params:
-          weight: -100 # Optional weighting for a specific image in this project folder
+    - src: edsac.jpg
 ---
 
 For my Undergraduate Dissertation, I built a **C++ based FORTRAN II Compiler** for writing and compiling programs to run on the original EDSAC Machine at Bletchley park. This project was completed under the supervision of Professor Andrew Brown, with the goal of dramatically simplifying the process of writing and compiling programs to the tape-based instruction set of the EDSAC machine. 

@@ -1,12 +1,10 @@
 ---
-title: ".dotfiles" # Title of your project
+title: ".dotfiles" 
 
-weight: 3 # Order in which to show this project on the home page
-external_link: "" # Optional external link instead of modal
+weight: 3 
+external_link: "" 
 resources:
     - src: screenshot.png
-      params:
-          weight: -100 # Optional weighting for a specific image in this project folder
 ---
 
 I'm an avid linux/vim/terminal lover. If you're interested in my dotfiles, you can find them here.
