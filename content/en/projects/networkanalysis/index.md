@@ -7,7 +7,7 @@ resources:
     - src: screenshot.png
 ---
 
-As a part of my fourth year Group Design Project, myself and a team of four others designed and implemented a passive network tap capable of logging analytics, client and network information, active port scanning and basic intrusion detection. This was build with a Java backend (build ontop of [PCAP4J](https://github.com/kaitoy/pcap4j)), with a ReactJS frontend. 
+As a part of my fourth year Group Design Project, myself and a team of four others designed and implemented a passive network tap capable of logging analytics, client and network information, active port scanning and basic intrusion detection. This was build with a Java backend (build ontop of [PCAP4J](https://github.com/kaitoy/pcap4j)), with a ReactJS frontend.  This whole setup was deployed and build with a series of microservices and containers, making it easy to develop on and deploy the project as required.
 
 The project was extremely large, and capable of detecting (among others): 
 - Listing all DNS queries made on a network
