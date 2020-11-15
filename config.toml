@@ -33,10 +33,6 @@ DefaultContentLanguage           = "en"                    # Default language fo
         url   = "https://twitter.com/elliotalex97"
         icon  = "twitter" 
         icon_pack = "fab"
-    # [[params.social]]
-    #     url   = "https://facebook.com/"
-    #     icon  = "facebook-f" # icon name without the 'fa-'
-    #     icon_pack = "fab"
     [[params.social]]
         url   = "https://www.linkedin.com/in/elliotalexander97/"
         icon  = "linkedin-in" # icon name without the 'fa-'
@@ -74,13 +70,13 @@ DefaultContentLanguage           = "en"                    # Default language fo
 [languages]
     [languages.en]
         languageName     = "English"
-        languageCode     = "en-us"
+        languageCode     = "en-gb"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Elliot Alexander"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
-            # footerText   = ""                      # Text to override default footer text (markdown allowed)
+            description  = "Elliot Alexander's Personal Site"   # Max 160 characters show in search results
+            # footerText   =                       # Text to override default footer text (markdown allowed)
 
 
 [deployment]
