@@ -1,6 +1,8 @@
 ---
 title: "Brideshead Revisited"
 date: 2020-11-15T17:03:06Z
+tags: ["books"]
+draft: true
 ---
 
 My first serious foray into reading again this year was on a recommendation of a friend, Evelyn Waugh’s ‘Brideshead Revisited’. I’ve heard of Evelyn Waugh, and picked up Brideshead Revisited as my first experience with his writing (maybe against some of the advice from more seasoned readers of Waugh).
@@ -16,5 +18,3 @@ Charles’ own struggles with faith are touched upon through the novel, though h
 
 
 While the novel is steeped in both religious and social commentary, something which I could continue to lament on far past the point of boredom, perhaps the more interesting interpretations of the Brideshead in the modern day is one of nostalgia and melancholy, both for the characters and the place of English aristocracy in pre-war Britain. There’s a serious sense in the novel that Charles and Sebastian (who themselves explore a romantic, if not intimate, relationship over the course of the novel) capture an almost perfect moment in time during their first term at Oxford, and first summer at Brideshead. While Sebastian is initially absolute in not introducing Charles to his family, he later invites him to Brideshead for the summer having suffered a riding accident. The aesthetic of this summer, both in the beauty of Brideshead, as yet skin-deep disfunction of Sebastian’s family, and intimate relationship between them, capture what one might see as the happiest period of Charles’ life. As the narrative continues, Sebastian’s death, Julia’s reconciliation (as well as first illegitimate marriage), and Charles’ general ill-excitement with his prospects in life (despite relative success as a renowned architectural painter), all contribute to a sense of almost loss for what was briefly an almost idyllic perception of life among the English Aristocracy. This nostalgia, both personal and for the wider view of the ‘Golden Age’ of early-century England, is ultimately corrupted by everything from the advancing social change of the early 20th Century (perhaps explored within contemporary reactions to Charles and Sebastian's relationship) to the wider degradation of organised religion and perceived lack of both respect and appreciation for ‘Old England’. This is most poignant at the novels introduction, as Brideshead is used as a battalion headquarters while war rages across Europe. This almost mirrors traditional interpretations of the pastoral, supported by the aforementioned title of the first book, with the briefly captured idyll of the novels namesake being briefly captured, but ultimately destroyed.
-
-
