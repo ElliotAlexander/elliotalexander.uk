@@ -1,0 +1,8 @@
+name: Close as a feature
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hugo setup
+      uses: peaceiris/actions-hugo@v2.4.13
