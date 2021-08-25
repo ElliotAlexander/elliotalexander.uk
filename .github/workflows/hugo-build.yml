@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hugo setup
+    - name: Hugo setup
       uses: peaceiris/actions-hugo@v2.4.13
