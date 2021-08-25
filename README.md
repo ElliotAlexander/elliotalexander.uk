@@ -1,2 +1,5 @@
-# static_elliotalexander.uk
-A static version of my personal website, accessible elliotalexander.uk
+# ElliotAlexander.uk
+
+This repo contains a static version of my personal website, accessible at elliotalexander.uk, built with [Hugo](https://gohugo.io/).
+
+
