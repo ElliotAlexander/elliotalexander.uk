@@ -16,7 +16,13 @@ Similar to how I've been doing with gigs, I've decided to track the books I've b
 * December: Freakonomics - Stephen J. Dubner and Steven Levitt
 
 ## 2021: 
+* Janurary: Class in Suburbia - William M. Dobriner
 * July: Decline and Fall - Evelyn Waugh 
 * July: The Expected Goals Philosophy - James Tippet
+* July: The Palestine-Israel Conflict - Gregory Har,s and Todd M.Ferry
 * August: Sapiens -  Yuval Noah Harari
 * August: Wessex Tales - Thomas Hardy
+* September: Why I'm no longer talking to white people about race - Reni Eddo-Lodge
+* September: Fear and Loating in Las Vegas - Hunter S.Thompson
+* September: English Literature: A very short introduction - Jonathon Bate
+* October: Permanent Record - Edward Snowden
