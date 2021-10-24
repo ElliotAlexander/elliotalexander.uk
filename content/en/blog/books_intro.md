@@ -9,7 +9,3 @@ As a recent university graduate, I find myself with an abundance of both time an
 I plan to keep a log here (potentially backdated a little, to the start of this obviously weird year) of the books I read, and my thoughts on them. This might take the form of a mini review, or just some comments on passages and sections throughout the book I found particularly interesting or poignant. 
 
 While this is mostly for my own logs and sanity (it can sometimes feels like the second you turn the last page of a book, you immediately lose and recollection of it's contents), but I hope if anyone does read this they take some interest or enjoyment from it, as I hope I will. 
-
-
-
-
