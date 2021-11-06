@@ -53,4 +53,8 @@ Pre-Pandemic (incomplete):
 * 7th October: **Gender Roles** @ Exchange Bristol 
 * 8th October: **Fatherson** @ The Joiners Southampton 
 * 18th October: **Salem** @ Exchange Bristol 
+* 26th October: **Public Service Broadcasting** @ 02 Bristol (no show due to COVID)
+* 26th October: **Public Service Broadcasting** @ Joiners Live Southampton (no show due to COVID)
+* 1st November: **Easy Life** @ 02 Bristol (no show due to COVID)
+* 
 
