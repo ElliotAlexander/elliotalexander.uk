@@ -1,0 +1,11 @@
+h1, h2, .title, .subtitle p {
+    color: #75b8c8
+}
+
+.subtitle strong {
+    color: #ed6a5a
+}
+
+a {
+    color: #ed6a5a
+}
