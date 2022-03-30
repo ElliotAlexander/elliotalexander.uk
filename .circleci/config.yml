@@ -7,8 +7,9 @@ jobs:
         docker:
             - image: cimg/base:stable
         steps:
+            - checkout
             - hugo/install:
-                version: '0.55'
+                version: '0.96.0'
             - run: ls -lah my-site
 
 
