@@ -86,9 +86,9 @@ jobs:
             - aws-s3/sync:
                 arguments: |
                     --acl public-read \
-                    --cache-control "max-age=86400"
+                    --sse AES256
                 from: /tmp/workspace
-                to: 's3://elliotalexander.uk/'
+                to: "s3://elliotalexander.uk/"
 
 
 workflows:
@@ -96,7 +96,7 @@ workflows:
         jobs:
           - install
           - plan:
-              name: "plan-pre-deploy"
+              name: "pre-deploy"
               requires:
                 - install
           - hold:
