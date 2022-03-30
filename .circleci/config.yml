@@ -10,8 +10,9 @@ jobs:
             - checkout
             - hugo/install:
                 version: '0.96.0'
-            - run: ls -lah my-site
-
+            - run:
+                command: >
+                    npm i -g postcss postcss-cli autoprefixer
 
 workflows:
     build:
