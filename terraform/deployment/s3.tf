@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "bucket" {
 
 resource "aws_s3_bucket_acl" "acl" {
   bucket = aws_s3_bucket.bucket.id
-  acl = "public-read"
+  acl    = "public-read"
 }
 
 resource "aws_s3_bucket_server_side_encryption_configuration" "backend" {
