@@ -48,8 +48,14 @@ jobs:
             - run:
                 command: ls /tmp/workspace/public
                 name: List files to push
+            - run:
+                command: cd /tmp
+                name: Move to /tmp
             - terraform/install:
                 terraform_version: 1.1.7
+            - run:
+                command: cd ~/workspace
+                name: Move to root
 
 workflows:
     build:
