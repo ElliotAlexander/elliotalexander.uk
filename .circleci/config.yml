@@ -9,7 +9,7 @@ jobs:
         steps:
             - hugo/install:
                 version: '0.55'
-          - run: ls -lah my-site
+            - run: ls -lah my-site
 
 
 workflows:
