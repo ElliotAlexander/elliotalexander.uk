@@ -7,7 +7,7 @@ orbs:
 
 jobs:
     install:
-        working_directory: ~
+        working_directory: "~/tmp"
         docker:
             - image: cimg/base:stable
         steps:
@@ -34,7 +34,7 @@ jobs:
                 command: |
                     hugo -v -s . -d public
             - persist_to_workspace:
-                root: ~
+                root: "~/tmp"
                 paths:
                     - public
 workflows:
