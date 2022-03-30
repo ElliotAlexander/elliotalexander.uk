@@ -37,7 +37,7 @@ jobs:
                 root: "~/tmp"
                 paths:
                     - public
-    deploy:
+    plan:
         working_directory: "~/workspace"
         docker:
             - image: cimg/base:stable
@@ -59,11 +59,29 @@ jobs:
                 path: "terraform/deployment"
             - terraform/plan:
                 path: "terraform/deployment"
+    deploy:
+        working_directory: "~/workspace"
+        docker:
+            - image: cimg/base:stable
+        steps:
+            - checkout
+            - terraform/install:
+                terraform_version: 1.1.7
+            - terraform/apply:
+                path: "terraform/deployment"
+
 
 workflows:
     build:
         jobs:
           - install
-          - deploy:
+          - plan:
+              name: "plan-pre-deploy"
               requires:
                 - install
+          - hold:
+              name: "prod-deploy-approval"
+              type: "approval"
+              requires: ["plan-pre-deploy"]
+          - deploy:
+              requires: ["prod-deploy-approval"]
