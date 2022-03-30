@@ -1,15 +1,20 @@
 version: 2.1
 orbs:
     hugo: circleci/hugo@1.3.0
+    node: circleci/node@5.0.2
 
 jobs:
     install:
         docker:
-            - image: circleci/node@5.0.2
+            - image: cimg/base:stable
         steps:
             - checkout
             - hugo/install:
                 version: '0.96.0'
+            - node/install:
+                install-yarn: true
+                node-version: '16.13'
+            - run: node --version
             - run:
                 command: >
                     npm i -g postcss postcss-cli autoprefixer
