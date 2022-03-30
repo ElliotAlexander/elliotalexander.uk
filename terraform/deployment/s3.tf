@@ -18,6 +18,15 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "backend" {
   }
 }
 
+resource "aws_s3_bucket_cors_configuration" "example" {
+  bucket = aws_s3_bucket.bucket.bucket
+
+  cors_rule {
+    allowed_methods = ["GET"]
+    allowed_origins = ["*"]
+  }
+}
+
 resource "aws_s3_bucket_public_access_block" "example" {
   bucket = aws_s3_bucket.bucket.id
 
