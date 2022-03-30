@@ -1,12 +1,19 @@
 version: 2.1
 orbs:
     hugo: circleci/hugo@1.3.0
+
+jobs:
+    install:
+        docker:
+          - image: cimg/base
+        steps:
+          - hugo/install
+          - run: ls -lah my-site
+
+
 workflows:
     build:
         jobs:
-            - run: npm i -g postcss postcss-cli autoprefixer
-            - hugo/build:
-                html-proofer: true
-                version: '0.55'
+            - install
 
 
