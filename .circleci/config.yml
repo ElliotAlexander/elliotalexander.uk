@@ -10,9 +10,20 @@ jobs:
             - checkout
             - hugo/install:
                 version: '0.96.0'
+                #  - run:
+                #      command: >
+                #          npm i -g postcss postcss-cli autoprefixer
             - run:
-                command: >
-                    npm i -g postcss postcss-cli autoprefixer
+                command: |
+                    if [ -f ".gitmodules" ]; then
+                      git submodule sync
+                      git submodule update --init --recursive
+                    fi
+                name: Checkout Submodules if Needed
+            - hugo-build:
+                destination: public
+                extra-flags: ""
+                source: .
 
 workflows:
     build:
