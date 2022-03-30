@@ -37,7 +37,18 @@ jobs:
                 root: "~/tmp"
                 paths:
                     - public
+    deploy:
+        working_directory: "/tmp"
+        docker:
+            - image: cimg/base:stable
+            - attach_workspace:
+                at: /tmp/workspace
+          - run: |
+              cat /tmp/workspace/public
+            - terraform/install:
+                version: 1.1.7
 workflows:
     build:
         jobs:
           - install
+          - deploy
