@@ -5,7 +5,7 @@ orbs:
 jobs:
     install:
         docker:
-          - image: cimg/base
+            - image: cimg/base:stable
         steps:
             - hugo/install:
                 version: '0.55'
