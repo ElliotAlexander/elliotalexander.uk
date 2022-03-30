@@ -54,11 +54,11 @@ jobs:
             - terraform/install:
                 terraform_version: 1.1.7
             - terraform/fmt:
-                path: "terraform"
+                path: "terraform/deployment"
             - terraform/validate:
-                path: "terraform"
+                path: "terraform/deployment"
             - terraform/plan:
-                path: "terraform"
+                path: "terraform/deployment"
 
 workflows:
     build:
