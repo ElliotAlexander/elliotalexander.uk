@@ -38,7 +38,7 @@ jobs:
                 paths:
                     - public
     deploy:
-        working_directory: "~/"
+        working_directory: "~/workspace"
         docker:
             - image: cimg/base:stable
         steps:
