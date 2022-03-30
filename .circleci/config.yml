@@ -48,9 +48,6 @@ jobs:
             - run:
                 command: ls /tmp/workspace/public
                 name: List files to push
-            - run:
-                command: mv terraform /tmp/terraform
-                name: Move to /tmp
             - terraform/install:
                 terraform_version: 1.1.7
             - terraform/fmt:
