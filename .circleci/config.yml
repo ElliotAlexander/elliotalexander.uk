@@ -51,6 +51,9 @@ jobs:
             - run:
                 command: cd /tmp
                 name: Move to /tmp
+            - run:
+                command: ls -lsah
+                name: List files
             - terraform/install:
                 terraform_version: 1.1.7
             - run:
