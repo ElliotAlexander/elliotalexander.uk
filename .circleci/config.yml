@@ -1,4 +1,5 @@
 version: 2.1
+
 orbs:
     hugo: circleci/hugo@1.3.0
     node: circleci/node@5.0.2
@@ -29,6 +30,7 @@ jobs:
                     fi
                 name: Checkout Submodules if Needed
             - run:
+                name: Run Hugo Build
                 command: |
                     hugo -v -s . -d public
             - persist_to_workspace:
@@ -38,7 +40,7 @@ jobs:
 workflows:
     build:
         jobs:
-            - install
+          - install
     deploy_infrastructure:
         jobs:
           - terraform/fmt:
@@ -62,3 +64,4 @@ workflows:
                 branches:
                   only: master
               requires:
+                - terraform/plan
