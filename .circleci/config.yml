@@ -87,7 +87,7 @@ jobs:
                 arguments: |
                     --acl public-read \
                     --sse AES256
-                from: /tmp/workspace
+                from: /tmp/workspace/public
                 to: s3://elliotalexander.uk/
 
 
