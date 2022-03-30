@@ -20,10 +20,9 @@ jobs:
                       git submodule update --init --recursive
                     fi
                 name: Checkout Submodules if Needed
-            - hugo-build:
-                destination: public
-                extra-flags: ""
-                source: .
+            - run:
+                command: |
+                    hugo -v -s . -d public
 
 workflows:
     build:
