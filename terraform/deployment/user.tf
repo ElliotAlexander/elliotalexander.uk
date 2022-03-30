@@ -31,11 +31,11 @@ EOF
 }
 
 resource "aws_iam_access_key" "access_key" {
-  user    = aws_iam_user.lb.name
+  user = aws_iam_user.lb.name
 }
 
 output "secret" {
-  value = aws_iam_access_key.access_key.secret
+  value     = aws_iam_access_key.access_key.secret
   sensitive = true
 }
 
