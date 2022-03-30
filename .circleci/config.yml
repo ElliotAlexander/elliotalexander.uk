@@ -49,16 +49,14 @@ jobs:
                 command: ls /tmp/workspace/public
                 name: List files to push
             - run:
-                command: cd /tmp
+                command: mv terraform /tmp/terraform
                 name: Move to /tmp
-            - run:
-                command: ls -lsah
-                name: List files
             - terraform/install:
                 terraform_version: 1.1.7
-            - run:
-                command: cd ~/workspace
-                name: Move to root
+            - terraform/validate:
+                path: /tmp/terraform
+            - terraform/plan:
+                path: /tmp/terraform
 
 workflows:
     build:
