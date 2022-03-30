@@ -5,14 +5,14 @@ orbs:
 jobs:
     install:
         docker:
-            - image: cimg/base:stable
+            - image: circleci/node@5.0.2
         steps:
             - checkout
             - hugo/install:
                 version: '0.96.0'
-                #  - run:
-                #      command: >
-                #          npm i -g postcss postcss-cli autoprefixer
+            - run:
+                command: >
+                    npm i -g postcss postcss-cli autoprefixer
             - run:
                 command: |
                     if [ -f ".gitmodules" ]; then
