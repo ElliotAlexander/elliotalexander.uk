@@ -109,5 +109,5 @@ workflows:
               name: "prod-sync-approval"
               type: "approval"
               requires: ["plan-pre-deploy"]
-          - deploy:
+          - sync:
               requires: ["prod-sync-approval"]
