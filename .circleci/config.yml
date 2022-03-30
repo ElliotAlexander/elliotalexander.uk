@@ -56,9 +56,9 @@ jobs:
             - terraform/fmt:
                 path: "terraform"
             - terraform/validate:
-                path: "~/workspace/terraform"
+                path: "terraform"
             - terraform/plan:
-                path: "~/workspace/terraform"
+                path: "terraform"
 
 workflows:
     build:
