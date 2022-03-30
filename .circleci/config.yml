@@ -38,16 +38,19 @@ jobs:
                 paths:
                     - public
     deploy:
-        working_directory: "/tmp"
+        working_directory: "~/"
         docker:
             - image: cimg/base:stable
         steps:
+            - checkout:
             - attach_workspace:
                 at: /tmp/workspace
-            - run: |
-                cat /tmp/workspace/public
+            - run:
+                command: ls /tmp/workspace/public
+                name: List files to push
             - terraform/install:
                 terraform_version: 1.1.7
+
 workflows:
     build:
         jobs:
