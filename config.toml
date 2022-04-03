@@ -11,7 +11,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    customCSS                  = []             # Include custom css files placed under assets/
+    customCSS                  = ["custom.css"]             # Include custom css files placed under assets/
     customJS                   = []              # Include custom JavaScript files placed under assets/
 
     # Configure the home page
@@ -31,7 +31,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
     [[params.social]]
         url   = "https://twitter.com/elliotalex97"
-        icon  = "twitter" 
+        icon  = "twitter"
         icon_pack = "fab"
     [[params.social]]
         url   = "https://www.linkedin.com/in/elliotalexander97/"
