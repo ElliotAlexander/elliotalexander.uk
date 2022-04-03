@@ -94,9 +94,10 @@ jobs:
 workflows:
     build:
         jobs:
-          - install
+          - install:
+              name: "Hugo build"
           - plan:
-              name: "pre-deploy"
+              name: "Pre-deploy checks"
               requires:
                 - install
           - hold:
