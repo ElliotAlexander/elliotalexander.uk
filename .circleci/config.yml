@@ -99,7 +99,7 @@ workflows:
           - plan:
               name: "Pre-deploy checks"
               requires:
-                - install
+                - ["Hugo build"]
           - hold:
               name: "prod-deploy-approval"
               type: "approval"
